@@ -108,8 +108,8 @@ p:host-name="${redis.host}" p:port="${redis.port}" p:password="${redis.pass}" p:
     
 
 
-<!-- Aop -->
-<aop:aspectj-autoproxy />
+
+
 
 
 

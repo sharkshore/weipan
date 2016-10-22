@@ -13,8 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.shark.mvctemp.dto.Student;
-import com.shark.mvctemp.service.IMongoTestService;
+import com.shark.weipan.service.IMongoTestService;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = { "/spring/spring-context.xml", "/spring/spring-mvc.xml" })

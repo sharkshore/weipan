@@ -5,7 +5,7 @@
 
 	<!-- 类型别名 -->
 	<typeAliases>
-		 <typeAlias type="com.shark.mvctemp.dto.Test" alias="test" /> 
+		 <typeAlias type="com.shark.weipan.dto.Test" alias="test" /> 
 	</typeAliases>
 
 </configuration>

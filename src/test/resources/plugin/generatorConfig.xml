@@ -11,11 +11,11 @@
     
     <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://121.43.191.116:3306/testmybatis" userId="root" password="123" />
     
-    <javaModelGenerator targetPackage="com.shark.mvctemp.dto" targetProject="mvctemp\src\main\java" />
+    <javaModelGenerator targetPackage="com.shark.weipan.dto" targetProject="weipan\src\main\java" />
    
-    <sqlMapGenerator targetPackage="com.shark.mvctemp.dao.mapper" targetProject="mvctemp\src\main\java" />
+    <sqlMapGenerator targetPackage="com.shark.weipan.dao.mapper" targetProject="weipan\src\main\java" />
     
-    <javaClientGenerator targetPackage="com.shark.mvctemp.dao" targetProject="mvctemp\src\main\java" type="XMLMAPPER" />
+    <javaClientGenerator targetPackage="com.shark.weipan.dao" targetProject="weipan\src\main\java" type="XMLMAPPER" />
     
     <table  tableName="test_mybatis" >
       
